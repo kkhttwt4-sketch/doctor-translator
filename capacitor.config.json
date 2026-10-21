@@ -1,0 +1,8 @@
+{
+  "appId": "com.doctortranslator.app",
+  "appName": "ترجمان الطبيب",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

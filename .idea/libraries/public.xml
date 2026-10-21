@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="public">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/app/src/main/assets/public/doctor-translator-app.zip!/" />
+      <root url="jar://$PROJECT_DIR$/android/app/src/main/assets/public/doctor-translator-render.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="bf17a8ae-765c-4dfb-b5ba-f726e0dd24fc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.aistudio/artifacts/brain/bf17a8ae-765c-4dfb-b5ba-f726e0dd24fc/doctor-translator-render.zip!/" />
+      <root url="jar://$PROJECT_DIR$/.aistudio/artifacts/brain/bf17a8ae-765c-4dfb-b5ba-f726e0dd24fc/doctor-translator-app.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

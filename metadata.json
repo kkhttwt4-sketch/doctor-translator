@@ -1,0 +1,6 @@
+{
+  "name": "Doctor Translator - ترجمان الطبيب",
+  "description": "تطبيق ذكي يساعد المرضى وكبار السن على قراءة وفهم الوصفات الطبية المكتوبة وشرحها بلغة عربية مبسطة مع دعم القراءة الصوتية.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

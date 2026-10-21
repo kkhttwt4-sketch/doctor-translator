@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1936" />
+      <stop offset="100%" stop-color="#040916" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="16" flood-color="#0284c7" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle for mobile icon -->
+  <rect x="0" y="0" width="512" height="512" rx="115" fill="url(#bgGrad)" />
+  <rect x="8" y="8" width="496" height="496" rx="108" fill="none" stroke="#1e3a8a" stroke-width="4" opacity="0.6" />
+
+  <!-- Center Glowing Shield / Pad -->
+  <rect x="96" y="96" width="320" height="320" rx="64" fill="url(#badgeGrad)" filter="url(#glow)" />
+  <rect x="108" y="108" width="296" height="296" rx="52" fill="#081024" />
+
+  <!-- Medical Cross / Pill Symbol -->
+  <g transform="translate(256, 256)" filter="url(#glow)">
+    <!-- Vertical bar -->
+    <rect x="-26" y="-90" width="52" height="180" rx="26" fill="url(#primaryGrad)" />
+    <!-- Horizontal bar -->
+    <rect x="-90" y="-26" width="180" height="52" rx="26" fill="url(#primaryGrad)" />
+    <!-- Center pulse core -->
+    <circle cx="0" cy="0" r="28" fill="#ffffff" />
+    <!-- Stethoscope arc -->
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" stroke-dasharray="140 300" transform="rotate(-45)" />
+    <!-- Small heartbeat line -->
+    <path d="M -18 0 L -8 0 L -4 -12 L 4 12 L 8 0 L 18 0" fill="none" stroke="#0284c7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Arabic sub-badge dot -->
+  <circle cx="256" cy="445" r="8" fill="#38bdf8" />
+</svg>
