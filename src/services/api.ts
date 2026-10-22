@@ -22,7 +22,7 @@ export async function analyzePrescriptionImage(
   mimeType: string = 'image/jpeg'
 ): Promise<AnalysisResponse> {
   try {
-    const response = await fetch('/api/analyze-prescription', {
+    const response = await fetch('https://doctor-translator.onrender.com/api/analyze-prescription', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -61,7 +61,7 @@ export async function analyzePrescriptionImage(
  */
 export async function requestArabicSpeech(text: string): Promise<TTSResponse> {
   try {
-    const response = await fetch('/api/text-to-speech', {
+    const response = await fetch('https://doctor-translator.onrender.com/api/text-to-speech', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
